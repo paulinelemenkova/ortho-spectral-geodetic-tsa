@@ -1,0 +1,19 @@
+{
+  "crs": "EPSG:<utm>",
+  "season": ["MM-DD", "MM-DD"],
+  "season_fallback": ["MM-DD", "MM-DD"],
+  "max_scene_cloud": 60,
+  "min_clear": 0.8,
+  "windows": {
+    "core": {
+      "bbox": ["<lon0>", "<lat0>", "<lon1>", "<lat1>"],
+      "screen_exclude": [["<lon0>", "<lat0>", "<lon1>", "<lat1>"]],
+      "sensors": {
+        "landsat": {"years": ["<y0>", "<y1>"], "per_year": 4,
+                    "bands": ["blue", "green", "red", "nir08", "swir16", "swir22", "lwir", "qa_pixel", "st_qa"]},
+        "sentinel2": {"years": ["<y0>", "<y1>"], "per_year": 6,
+                      "bands": ["B02", "B03", "B04", "B08", "B11", "B12", "SCL"]}
+      }
+    }
+  }
+}

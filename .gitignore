@@ -1,0 +1,14 @@
+roi.json
+windows.json
+cfg/*.json
+!cfg/*.example.json
+data/
+out/
+*.tif
+*.nc
+*.h5
+*.zip
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+.DS_Store

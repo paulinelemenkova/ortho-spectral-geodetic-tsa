@@ -1,0 +1,13 @@
+{
+  "crs": "EPSG:<utm>",
+  "grid": ["<x0>", "<y0>", "<ncol>", "<nrow>"],
+  "window": ["<lon0>", "<lat0>", "<lon1>", "<lat1>"],
+  "region": ["<lon0>", "<lon1>", "<lat0>", "<lat1>"],
+  "box_a": ["<lon0>", "<lat0>", "<lon1>", "<lat1>"],
+  "box_b": ["<lon0>", "<lat0>", "<lon1>", "<lat1>"],
+  "split_lat": "<lat>",
+  "transect": [["<lon>", "<lat>"], ["<lon>", "<lat>"]],
+  "probes": {"P1": ["<lon>", "<lat>", "<tag>"]},
+  "wrs": "<PPPRRR>",
+  "job_prefix": "<str>"
+}
