@@ -1,0 +1,12 @@
+{
+  "title": "Orthogonal Spectral, Thermal and Geodetic Evidence Streams: A Reproducible Python Framework for Quantile-Harmonised Archive Analytics, Explainable Surface-State Learning and Kinematic Attribution",
+  "upload_type": "software",
+  "creators": [
+    {"name": "Lemenkova, Polina",
+     "affiliation": "BRGM; Le Studium; Laboratoire PRISME, Université d'Orléans / INSA CVL"}
+  ],
+  "description": "ROI-agnostic Python framework fusing quantile-harmonised Landsat C2L2 SR/ST and Sentinel-2 L2A stacks, spatially blocked RF/GBDT surface-state inference with TreeSHAP attribution, Hamed-Rao Mann-Kendall / Theil-Sen / PELT change diagnostics, robust-z LST anomalies with Moran's I and LISA, and Sentinel-1 SBAS (HyP3-MintPy) kinematic attribution.",
+  "keywords": ["remote sensing", "earth observation", "time-series analysis", "Landsat", "Sentinel-2", "Sentinel-1", "InSAR", "SBAS", "MintPy", "land surface temperature", "radiometric cross-calibration", "quantile mapping", "LightGBM", "random forest", "SHAP", "Mann-Kendall", "change-point detection", "spatial autocorrelation", "STAC"],
+  "access_right": "open",
+  "version": "0.1.0"
+}
